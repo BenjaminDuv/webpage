@@ -18,10 +18,17 @@ body {
   top: 70px;
 }
 
+/* Links in the header */
+.btn-header{
+	text-align: center;
+	padding-top: 20px;
+}
+
  /* Page title */
 .title{
 	color: #FFFFFF;
 	text-align: center;
 	padding-top: 20px;
+	font-size: 30px
 }
 
