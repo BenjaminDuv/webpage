@@ -2,26 +2,35 @@
 body {
   width: 100%;
   height: 100%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
 }
 
 .header {
   height: 100px;
   width: 100%;
-  background-color: #751113;
+  /*background-color: #751113;*/
+  background-image: url("/images/header_faded.jpg");
+  background-position: center center;
   position: relative; 
 }
 
 /* Header logo */
 .logo_header{
-  width: 60px;
+  width: 70px;
   position: absolute;
-  top: 30px;
+  top: 15px;
+  left: 5px;
 }
 
 /* Links in the header */
 .btn-header{
 	text-align: center;
 	padding-top: 20px;
+}
+
+.btn-toolbar{
+  font-size: 0;
 }
 
  /* Page title */
@@ -39,6 +48,7 @@ h2{
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;    
 }
+
 .item{
     background: #333;    
     text-align: center;
