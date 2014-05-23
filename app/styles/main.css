@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  height: 140px;
+  height: 100px;
   width: 100%;
   background-color: #751113;
   position: relative; 
@@ -15,7 +15,7 @@ body {
 .logo_header{
   width: 60px;
   position: absolute;
-  top: 70px;
+  top: 30px;
 }
 
 /* Links in the header */
@@ -29,6 +29,26 @@ body {
 	color: #FFFFFF;
 	text-align: center;
 	padding-top: 20px;
-	font-size: 30px
+	font-size: 20px
 }
+
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+  margin: 20px;
+}
+</s
 
