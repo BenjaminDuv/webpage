@@ -1,19 +1,5 @@
-'use strict';
+/*Contact button*/
 
-angular
-  .module('webpageApp', [
-    'ngCookies',
-    'ngResource',
-    'ngSanitize',
-    'ngRoute'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+$('#contactButton').click(function(){
+	alert('Go to the footpage');
+});
