@@ -4,8 +4,8 @@ body {
   height: 100%;
   min-width: 850px;
   width: auto !important; 
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 /************** HEADER ***************/
@@ -17,6 +17,10 @@ body {
   /*background-image: url("../images/header_faded.jpg");*/
   background-position: center center;
   position: relative; 
+}
+
+.header a{
+    color: #DDDDDD;
 }
 
 .logo_header{
@@ -44,6 +48,7 @@ body {
 	color: #FFFFFF;
 	position: relative;
   text-align: center-left;
+  font-family: Georgia, Serif;
   float: left;
 	padding-top: 38px;
   padding-left: 10px;
@@ -61,16 +66,30 @@ h2{
 
 
 /************** CONTENT ***************/
+
+p{
+  text-align: justify;
+}
+
+a{
+  font-family:  ‘Arial Black’, Gadget, sans-serif;
+  text-decoration: none;
+}
+
 .content{
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.content-left{
+  padding-right: 50%;
 }
 
 /************** CAROUSEL **************/
 .item{
     background: #333;    
     text-align: center;
-    height: 300px !important;
+    height: 350px !important;
 }
 .carousel{
     position: relative;
@@ -81,7 +100,7 @@ h2{
   position: absolute;
   left: 0;
   width: 100%;
-  height: 300px;
+  height: 350px;
 
 }
 
@@ -93,9 +112,10 @@ h2{
 /************* Footer ***************/
 .footer{
   position: relative;
+  bottom: 0;
   margin-top: 30px;
   height: 200px;
-  background-color: #DDDDDD;
+  background-color: #DDDDDD;  
   width: 100%;
 }
 
@@ -106,9 +126,4 @@ h2{
 .footer_contactus{
   padding-left: 5px;
   padding-top: 5px;
-}
-
-a{
-  text-decoration: none;
-  color: #DDDDDD;
 }
