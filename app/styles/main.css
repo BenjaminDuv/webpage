@@ -58,7 +58,8 @@ body {
   float: left;
 	padding-top: 38px;
   padding-left: 10px;
-	font-size: 18px
+	font-size: 18px;
+  z-index: 1;
 }
 
 
@@ -95,6 +96,7 @@ a{
 
 .content-left{
   position: relative;
+  float:left;
   padding-right: 50%;
 }
 
@@ -147,7 +149,7 @@ a{
   padding-left: 15%;
 }
 
-.footer p, a{
+.footer p, a, form{
   font-size: 12px;
   color: #FFFFFF;
 }
@@ -157,16 +159,11 @@ a{
   font-size: 20px;
 }
 
-.footer-contactus{
+.footer-bloc{
   position: relative;
   float: left;
-  padding-left: 5px;;
+  padding-right: 5px;;
 }
 
-.footer-info{
-  position: relative;
-  float: left;
-  padding-left: 15px
-}
 
 
