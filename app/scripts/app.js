@@ -1,5 +1,9 @@
-/*Contact button*/
+// Common footer and header
+$('#footer').load("../views/footer.html");
+$('#header').load("../views/header.html");
 
+
+/*Contact button*/
 $('#contactButton').click(function(){
 	alert('Go to the footpage');
 });

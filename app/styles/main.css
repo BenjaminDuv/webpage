@@ -83,6 +83,14 @@ a{
   text-decoration: none;
 }
 
+.main-title{
+  text-align: center;
+  font-style: bold;
+  font-size:40px;
+  color: #3BA39F;
+  padding-top: 10px;  
+}
+
 .content{
   padding-left: 15%;
   padding-right: 15%;
@@ -143,14 +151,14 @@ a{
   position: relative;
   bottom: 0;
   margin-top: 30px;
-  height: 200px; 
+  height: 300px; 
   width: 100%;
   padding-right: 15%;
   padding-left: 15%;
 }
 
 .footer p, a, form{
-  font-size: 12px;
+  font-size: 13px;
   color: #FFFFFF;
 }
 
@@ -159,11 +167,26 @@ a{
   font-size: 20px;
 }
 
-.footer-bloc{
+.footer-infos,
+.footer-contact,
+.footer-followus
+{
   position: relative;
   float: left;
-  padding-right: 5px;;
 }
 
+.footer-infos,
+.footer-followus
+{
+    padding-right: 15%;
+}
 
+.footer-infos p{
+  text-align: center;
+}
+
+.footer form{
+  width: 200px;
+  padding-left: 10px;
+}
 
