@@ -190,3 +190,7 @@ a{
   padding-left: 10px;
 }
 
+.footer-contact textarea{
+  width: 300px;
+}
+
