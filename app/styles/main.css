@@ -76,12 +76,14 @@ h2{
 
 p{
   text-align: justify;
+  font-size: 18px;
 }
 
 a{
   font-family:  ‘Arial Black’, Gadget, sans-serif;
   text-decoration: none;
 }
+
 
 .main-title{
   position: relative;
@@ -109,6 +111,7 @@ a{
   float:left;
   width: 100%;
   padding-right: 50%;
+  padding-bottom: 10px;
 }
 
 .content-right{
@@ -121,12 +124,23 @@ a{
   position: relative;
   width: 90%;
   margin: 0px auto 0px auto;
+  padding-bottom: 15px;
 }
 
 .information-center{
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+.myspan{
+  width: 32%;
+  height: 33%;
+  display: inline-block;
+}
+
+
+/** Images **/
 
 .image-content{
   height: 300px;
@@ -144,6 +158,7 @@ a{
   float:right;
   width:50%;
 }
+
 
 
 /************** CAROUSEL **************/
@@ -226,5 +241,10 @@ a{
 
 .footer-contact textarea{
   width: 300px;
+}
+
+.share-logo{
+  width: 30px;
+  height: 30px;
 }
 
