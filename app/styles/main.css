@@ -118,6 +118,7 @@ a{
 }
 
 .content-center{
+  position: relative;
   width: 90%;
   margin: 0px auto 0px auto;
 }
@@ -128,7 +129,7 @@ a{
 }
 
 .image-content{
-  height: 400px;
+  height: 300px;
   margin: 0px auto 0px auto;
   padding: 5px;
 }
@@ -173,6 +174,14 @@ a{
 .footer-container{
   position: relative;
   background-color: #751113; 
+}
+
+.link-up{  
+  display: block;
+  margin:auto;
+  width: 40px;
+  max-height: 40px;
+  margin-bottom: 5px;
 }
 
 .footer{
