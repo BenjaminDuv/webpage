@@ -134,9 +134,11 @@ a{
 }
 
 .myspan{
-  width: 32%;
+  width: 30%;
   height: 33%;
+  padding: 8px;
   display: inline-block;
+  vertical-align: top;
 }
 
 
