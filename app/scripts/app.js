@@ -15,3 +15,8 @@ $(".link").click(function(){
     }, 500);
     return false;
 });
+
+//Formular send button
+$(".send-button").click(function(){
+	
+})
