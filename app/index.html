@@ -24,7 +24,6 @@
     <!-- endbuild -->
   </head>
 
-
   <body>
 
 <!-- HEADER -->
@@ -113,36 +112,21 @@
     </div>
 
     <div class ="content-right">
-    <h3>What we offer ?</h3>
-    <p>
-    As a professional team of architects, designers and Business experts, we provide our customers a large range of services such as : 
-      <ul>
-       <li> Architectural Services </li>
-         <ul>
-          <li>Master Planning </li>
-          <li>Landscape Design </li>
-          <li>Healthcare Building </li>
-          <li>Extension and Refurbishment</li> 
-        </ul>
-      <li>  Interior Design </li>
-      <li>  Financial Advices </li>
-      </ul>
-
-    </p>
+    <h3>What we stand for ?</h3>
+      <p>
+       What makes us different from the other companies is the fact that we donate half of our profits to the <b>Awaiting Eyes Foundation</b>(AEF). 
+    AEF provides an access to education, accommodations, clothing and other assistances to orphaned children and widowed mothers in Pakistan. 
+    For instance, the AEF volunteers have been working on several projects such as the construction of a hospital, the implementation of a water pump and the plantation of Cassava, an easy to grow and nutritious plant, in the Pakistani region ravaged for the 2005 earthquake. 
+      </p>
     </div>
 
 
   <div class="content-center">
-  <h3>What we stand for ?</h3>
-  <p>
-   What makes us different from the other companies is the fact that we donate half of our profits to the <b>Awaiting Eyes Foundation</b>(AEF). 
-AEF provides an access to education, accommodations, clothing and other assistances to orphaned children and widowed mothers in Pakistan. 
-For instance, the AEF volunteers have been working on several projects such as the construction of a hospital, the implementation of a water pump and the plantation of Cassava, an easy to grow and nutritious plant, in the Pakistani region ravaged for the 2005 earthquake. 
-  </p>
+    <h3>What we offer ?</h3>
+    <img src="images/schema1.jpg">
   </div>
 
 </div>
-
 
  <a href="#header" class="link"><img src="images/arrow_link.png" class="link-up"></a> 
 
@@ -173,16 +157,13 @@ For instance, the AEF volunteers have been working on several projects such as t
   <div id = "footer_contactus" class="footer-contact">
       <h3> Contact us:</h3>
       
-      <form>
-        <label> Subject:</label> <input id="subject" type="text"><br>
-        <label>E-mail adresse: </label> <input id="email" type="text"><br>
+      <form action="mail_handler.php" method="post">
+        <label> Subject:</label> <input name="subject" type="text"><br>
+        <label>E-mail adresse: </label> <input name="email" type="text"><br>
         <label>Message:</label>
-        <textarea id="message" rows="5"></textarea>
+        <textarea name="message" rows="5"></textarea>
+        <input class="send-button" type="submit" name="submit" value="Submit">
       </form>
-
-      <a href="">
-        <button class="send-button"> Send</button>
-      </a>
 
   </div>
 
