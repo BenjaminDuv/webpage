@@ -85,15 +85,23 @@ a{
 }
 
 .div-centered,
+.div-centered-image
 .div-centered-alone{
   text-align: center;
   margin-bottom: 50px;
   margin-top: 50px;
+
+}
+
+.div-centered-image{
+  min-height: 300px;
+  padding-top: 100px;
 }
 
 .div-centered-alone{
   margin-right:10%;
-  margin-left:10%
+  margin-left:10%;
+  padding-top: 50px;
 }
 
 .main-title{
@@ -140,7 +148,7 @@ a{
 .content-center{
   width: 90%;
   margin: 0px auto 0px auto;
-  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .information-center{
