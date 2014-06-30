@@ -111,6 +111,10 @@ a{
   padding-right: 15%;
 }
 
+.content li{
+  font-size: 18px;
+}
+
 .content-left,
 .content-right,
 .content-center
@@ -186,13 +190,14 @@ a{
 
 /************** CAROUSEL **************/
 .item{
-    background: #333;    
-    text-align: center;
-    height: 350px !important;
+  background: #333;    
+  text-align: center;
+  height: 350px !important;
 }
+
 .carousel{
-    position: relative;
-    margin-top: 40px;
+  position: relative;
+  margin-top: 40px;
 }
 
 .carousel-background{
@@ -200,22 +205,23 @@ a{
   left: 0;
   width: 100%;
   height: 350px;
-
 }
 
 .carousel-img-left,
 .carousel-img-right{
-  position:relative;
+  position: relative;
   padding: 1%;
-  height: 240px;
-  width:50%;
+  height: 200px;
+  width: 450px;
 }
 
 .carousel-img-left{
   float: left;
+  padding-left: 12%;
 }
 
 .carousel-img-right{
+  padding-right: 20%;
   float: right;
 }
 
@@ -262,7 +268,7 @@ a{
 .footer-infos,
 .footer-followus
 {
-    padding-right: 15%;
+  padding-right: 15%;
 }
 
 .footer-infos p{
