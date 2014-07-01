@@ -148,7 +148,6 @@ a{
 .content-center{
   width: 90%;
   margin: 0px auto 0px auto;
-  padding-top: 15px;
 }
 
 .information-center{
@@ -196,6 +195,10 @@ a{
   background: rgba(0, 0, 0, 0);
 }
 
+.carousel-caption p{
+    text-align: center;
+}
+
 /************** CAROUSEL **************/
 .item{
   background: #333;    
@@ -233,6 +236,9 @@ a{
   float: right;
 }
 
+.container{
+  
+}
 
 /************* Footer ***************/
 .footer-container{
