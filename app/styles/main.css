@@ -96,13 +96,14 @@ a{
 .div-centered-alone{
   text-align: center;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 40px;
 
 }
 
 .div-centered-image{
-  min-height: 300px;
-  padding-top: 100px;
+  min-height: 320px;
+  padding-top: 50px;
+  padding-right: 20px;
 }
 
 .div-centered-alone{
@@ -181,19 +182,22 @@ a{
 /** Images **/
 
 .image-content{
-  height: 300px;
+  height: 320px;
   margin: 0px auto 0px auto;
   padding: 5px;
+  padding-bottom: 3%;
 }
 
 .image-left{
   position: relative;
   float:left;
+  padding-right: 3%;
   width:50%;
 }
 
 .image-right{
   float:right;
+  padding-left: 3%;
   width:50%;
 }
 
