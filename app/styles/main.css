@@ -1,9 +1,18 @@
-@media (min-width: 1200px){
+@media (min-width: 1300px){
   .container{
     width: 1000px;
   }
+
+  .footer{
+    width: 1380px;
+  }
 }
 
+@media (min-width: 600px){
+  .footer{
+    width: 550px;
+  }
+}
 
 /* Super body */
 body {
