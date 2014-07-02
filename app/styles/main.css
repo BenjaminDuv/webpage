@@ -3,16 +3,8 @@
     width: 1000px;
   }
 
-  .footer{
-    width: 1380px;
-  }
 }
 
-@media (min-width: 600px){
-  .footer{
-    width: 550px;
-  }
-}
 
 /* Super body */
 body {
@@ -118,6 +110,10 @@ a{
   min-height: 320px;
   padding-top: 50px;
   padding-right: 20px;
+}
+
+.div-centered-image h3{
+  padding-top: 0px;
 }
 
 .div-centered-alone{
@@ -284,10 +280,9 @@ a{
 }
 
 .footer{
-  margin-top: 30px;
   height: 350px; 
-  width: 50%;
-  margin: 0px auto 0px auto;
+  width: 60%;
+  margin: auto;
 }
 
 .footer p, a, form{
@@ -306,25 +301,12 @@ a{
 {
   position: relative;
   float: left;
-}
-
-.footer-infos,
-.footer-followus
-{
-  padding-right: 15%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .footer-infos p{
   text-align: center;
-}
-
-.footer form{
-  width: 200px;
-  padding-left: 10px;
-}
-
-.footer-contact textarea{
-  width: 300px;
 }
 
 .share-logo{
